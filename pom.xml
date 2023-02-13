@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>ZenoRobot</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>animation</id>
+            <url>file:///home/hhauter/robokind-java-api-jar-0.7/org.robokind.api.animation-0.7.jar</url>
+        </repository>
+        <repository>
+            <id>common</id>
+            <url>file:///home/hhauter/robokind-java-api-jar-0.7/org.robokind.api.common-0.7.jar</url>
+        </repository>
+        <repository>
+            <id>messaging</id>
+            <url>file:///home/hhauter/robokind-java-api-jar-0.7/org.robokind.api.messaging-0.7.jar</url>
+        </repository>
+        <repository>
+            <id>motion</id>
+            <url>file:///home/hhauter/robokind-java-api-jar-0.7/org.robokind.api.motion-0.7.jar</url>
+        </repository>
+        <repository>
+            <id>speech</id>
+            <url>file:///home/hhauter/robokind-java-api-jar-0.7/org.robokind.api.speech-0.7.jar</url>
+        </repository>
+        <repository>
+            <id>vision</id>
+            <url>file:///home/hhauter/robokind-java-api-jar-0.7/org.robokind.api.vision-0.7.jar</url>
+        </repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>robokind</groupId>
+            <artifactId>org.robokind.api.animation</artifactId>
+            <version>0.7</version>
+        </dependency>
+        <dependency>
+            <groupId>robokind</groupId>
+            <artifactId>org.robokind.api.common</artifactId>
+            <version>0.7</version>
+        </dependency>
+        <dependency>
+            <groupId>robokind</groupId>
+            <artifactId>org.robokind.api.messaging</artifactId>
+            <version>0.7</version>
+        </dependency>
+        <dependency>
+            <groupId>robokind</groupId>
+            <artifactId>org.robokind.api.motion</artifactId>
+            <version>0.7</version>
+        </dependency>
+        <dependency>
+            <groupId>robokind</groupId>
+            <artifactId>org.robokind.api.speech</artifactId>
+            <version>0.7</version>
+        </dependency>
+        <dependency>
+            <groupId>robokind</groupId>
+            <artifactId>org.robokind.api.vision</artifactId>
+            <version>0.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.robokind</groupId>
+            <artifactId>org.robokind.client.basic</artifactId>
+            <version>0.9.5</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
