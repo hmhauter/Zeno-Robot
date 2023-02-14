@@ -6,7 +6,7 @@ import org.robokind.api.motion.messaging.RemoteRobot;
 import org.robokind.client.basic.Robokind;
 import org.robokind.client.basic.RobotJoints;
 import org.robokind.client.basic.UserSettings;
-
+// 0.8.9 works C0
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +16,9 @@ public class Main {
         System.out.println("Start...!");
         //Set up the address and robot ID
         UserSettings.setRobotAddress(ip_address);
-        UserSettings.setRobotId("RKR251016100047");
+        // RKR251016100047
+
+        // UserSettings.setRobotId("R25");
 
 
         RemoteRobot robot = Robokind.connectRobot();
